@@ -1,0 +1,12 @@
+{
+    "host": "ec2-46-137-91-216.eu-west-1.compute.amazonaws.com",
+    "database": "d1t06hibdh2l0i",
+    "user": "ftrmlhcaubgvrg",
+    "port": 5432,
+    "password": "ec2d5fc16053dd16b42ade3f0d6af53796e88454d541bb57f4c333cf6941043f",
+    "dialect": "postgres",
+    "define": {
+        "timestamps": true,
+        "paranoid": true
+    }
+}
