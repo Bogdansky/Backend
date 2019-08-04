@@ -7,6 +7,10 @@ const context = require('./db/db')(Sequelize, config);
 
 let port = process.env.PORT || 5000;
 
+app.get('/', (req,res) => {
+    res.sendDate();
+})
+
 app.all('/api', (req, res) => {
 
 })
